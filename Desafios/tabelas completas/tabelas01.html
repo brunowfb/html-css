@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas completas</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;    
+            padding: 30px;
+         }
+
+        table {
+            background-color: white;
+            width: 1000px;
+            height: 800px;
+            border-collapse: separate;
+            box-shadow: 1px 1px 10px rgba(71, 70, 70, 0.507);
+            
+        }
+
+
+        td:hover {
+            background-color: rgb(255, 206, 71); 
+            color: rgb(0, 0, 0);
+            text-shadow: none;
+        }
+
+        td {
+            border: 1px solid rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0px 0px 5px rgb(179, 179, 177);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: black;
+        } 
+        
+        .cabeçalho {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border: 1px solid white; 
+        }
+
+        .femininos {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            font-weight: bolder;
+            background-color: rgb(253, 76, 159);
+            text-shadow: 1px 1px 3px rgb(0, 0, 0);
+        }
+
+        .masculinos {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            font-weight: bolder;
+            background-color: rgb(40, 94, 243);
+            text-shadow: 1px 1px 3px rgb(0, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="cabeçalho">Grupo</td>
+            <td class="cabeçalho">Nomes</td>
+            <td colspan="3" class="cabeçalho">Filmes</td>   
+        </tr>
+        <tr>
+            <td rowspan="3" class="cabeçalho">Mulheres</td>
+            <td class="femininos">Ana Maria Santos</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Aliens_(filme)">Alien</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Rambo">Rambo</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Vingadores">Vingadores</a></td>
+        </tr>
+        <tr>
+            <td class="femininos">Beatriz Souza</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Hulk_(filme)">Hulk</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/A_Origem">Inception</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/The_Batman_(filme)">Batman</a></td>
+        </tr>
+        <tr>
+            <td class="femininos">Cláudia Melo</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Oblivion_(filme)">Oblivion</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Matrix">Matrix</a></td>
+            <td><a href="https://www.adorocinema.com/filmes/filme-209529/">Big Hero</a></td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="cabeçalho">Homens</td>
+            <td class="masculinos">Bruno Mendonça</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Intouchables">Intocáveis</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Memento_(filme)">Amnésia</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Gladiador_(filme)">Gladiador</a></td>
+        </tr>
+        <tr>
+            <td class="masculinos">Daniel Lourenço</td>
+            <td><a href="https://pt.wikipedia.org/wiki/WALL-E">Wall-E</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Oldeuboi">Oldboy</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)">Dangal</a></td>
+        </tr>
+        <tr> 
+            <td class="masculinos">Fabiano Mota</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Star_Wars:_Epis%C3%B3dio_V_%E2%80%93_O_Imp%C3%A9rio_Contra-Ataca">Star Wars 5</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Taxi_Driver">Taxi Driver</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Toy_Story">Toy Story</a></td>
+        </tr>
+    </table>
+</body>
+</html>
