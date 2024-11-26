@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
+
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -14,6 +15,7 @@
             border-collapse: collapse;
             position: relative;
             text-align: center;
+            box-shadow: 2px 1px 5px  rgb(131, 131, 131);
         }
 
         th {
@@ -50,6 +52,18 @@
             text-align: left;
         }
 
+        td:hover {
+            background-color: yellow;
+        }
+
+        th:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .destaque {
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
@@ -68,7 +82,7 @@
         </thead>
         <tbody>
             <tr>
-                <td rowspan="4">Exatas</td>
+                <td rowspan="4" class="destaque">Exatas</td>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -94,10 +108,10 @@
             </tr>
             <tr class="menu">
                 <th colspan="4" class="alinhamento">Média de Exatas</th>
-                <td class="menu">0.0</td>  
+                <th class="menu">0.0</th>  
             </tr>
             <tr>
-                <td rowspan="2">Humanas</td>
+                <td rowspan="2" class="destaque">Humanas</td>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -111,7 +125,7 @@
             </tr>
             <tr class="menu">
                 <th colspan="4" class="alinhamento">Média de Humanas</th>
-                <td class="menu">0.0</td>  
+                <th class="menu">0.0</th>  
             </tr>
 
         </tbody>
