@@ -1,4 +1,4 @@
-@charset "UTF8";
+@charset "UTF-8";
 
 /* declarações gerais */
 @media all {
@@ -12,7 +12,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #233edd;
-    background-size: contain
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
