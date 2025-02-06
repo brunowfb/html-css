@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(82, 143, 255, 0.336);
+}
+
+div.conteiner {
+    display: flex;
+    width: 12%;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    /*padding: 300px;*/
+}  
+
+div.conteiner2 {
+    display: flex;
+    width: 5.5%;
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+    
+}  
+
+div.item {
+     flex: auto;   
+    
+}
+
+
+div#foto {
+    width:100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url(../imagens/foto.png);
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.295);
+    align-self: center;   
+}
+
+div#nome {
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-self:baseline;
+    padding-bottom: 10px;
+}
+
+div#conhecimento {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 6px;
+    background-color: yellow;
+    width: 80px;
+    height: 20px;
+    border: 20px;
+    border-radius: 8px 0px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.253);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-self:self-start;
+    
+    
+}
+
+div#descrição {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    
+    
+}
