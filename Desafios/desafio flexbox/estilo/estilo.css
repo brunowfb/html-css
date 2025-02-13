@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 145, 0);
+}
+
+div.principal {
+    background-color: rgb(255, 219, 172);
+    display: flex;
+    min-width: 1200px;
+    min-height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 60px 0px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.267);
+    
+}
+
+div.dados {
+    flex: auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;   
+    
+}
+
+
+div#imagem {
+    background-image: url(../imagens/foto.png); 
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.329);
+    border-radius: 80px;
+    position: absolute; 
+    flex: auto; 
+}
+
+div#valores {
+    
+    padding-left: 180px;
+    
+}
+
+p#nome{
+    margin-bottom: 5px;
+}
+
+p#conhecimento {  
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px 0px;
+    background-color: yellow;
+    width:80px;
+    height: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.438);
+    
+}
+
+div.identidade {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+#descrição {
+    width: 400px;
+    height: 180px;
+    text-align: justify;
+    margin-top: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+div.social {
+    display: flex;
+    
+}
+
+div.rede > a > img {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 40px 40px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.24);
+    flex: auto;
+    margin-right: 25px;
+ }
+
+ div.projetos {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 199, 126);
+    position: absolute;
+    top: 10%;
+    left: 59%;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       
+ }
+
+ div.projetos > div > h1 {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
+
+ div.tabela {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(255, 219, 173);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;  
+    margin: 5px;
+    justify-content: center;
+ }
+    
+ 
+
+

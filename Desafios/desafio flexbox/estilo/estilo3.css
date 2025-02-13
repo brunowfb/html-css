@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 145, 0);  
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.tela {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    background-color: rgb(156, 199, 255);
+    flex-direction: row;
+}
+
+div.item {
+    width: 50px;
+    height: 41px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+div#foto {
+    width: 150px;
+    height: 153px;
+    border-radius: 80px;
+    flex: auto;
+    
+}
+
+div.dados {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div#nome {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    flex: auto;
+}
+
+div#conhecimento {
+    width: 200px;
+    height: 30px;
+    flex: auto;
+    
+}
+
+div#conhecimento > p {
+    background-color: rgb(255, 238, 0);
+    width:90px;
+    height: 18px;
+    text-align: center;
+    border-radius: 7px 0px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.103);
+}
+
+div#lista {
+    width: 200px;
+    height: 70px;
+    font-size: 0.9em;
+    flex: auto;
+
+}
+
+div.identidade {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    text-align: justify;
+    background-color: aliceblue;
+    flex-direction: column;
+    height:140px;
+}
+
+div.bio > h2, p {
+    flex: auto;
+    width: 30%;
+    height:30%;
+    
+}
+
+
