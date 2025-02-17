@@ -33,7 +33,7 @@ div.tela {
 
 div.col-esq {
     flex: auto;
-    max-width: 70%;
+    max-width: 72%;
        
     
 }
@@ -45,7 +45,7 @@ div.primeira {
     gap: 10px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -61,38 +61,40 @@ div.item1 > img {
 
 div.item2 {
     flex: auto;
-    max-width:80%;
-     
+    max-width:100%;
+    text-align: left;
+    
 }
 
 div.item2 > h1 {
     flex: auto;
-    font-size: 1.7em;
-    text-align: center;
-    max-width: 30%;
+    font-size: 2em;
+    text-align: justify;
+    margin-left: 30px;
     
 }
 
 div.item2 > p { 
     flex: auto;
-    font-size: 15px;
+    font-size: 13px;
     border-radius: 10px 0px;
     background-color: rgb(255, 217, 0);
-    max-width:28%; 
+    max-width:23%; 
     text-align: center;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.438);
-    
+    margin-left: 40px;
 }
 
-div.item2 > ul {
+div.item2 > p > ul {
     flex: auto;
-    font-size: 0.75em;
-    max-width: 100%;
+    font-size: 0.9em;
+    max-width: 50%;
+    margin-left: 10px;
 }
 
 div.segunda {
     flex: auto;
-    max-width: 90%;
+    max-width: 100%;
     
 }
 
@@ -126,7 +128,7 @@ div.terceira > div.rede > a > img {
     background-size: cover;
     border-radius: 40px 40px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.24);
-     
+    
 }
 
 
@@ -140,9 +142,10 @@ div.col-dir {
 div.col-flex {
     display: flex;
     background-color: rgb(255, 199, 126);
-    max-width: 75%;
+    max-width: 85%;
     padding: 10px;
-    gap: 5px;
+    margin: 10px;
+    gap: 10px;
     flex-direction: column;
     justify-content:center;
     align-items: center; 
@@ -161,7 +164,7 @@ div.titulo {
 
 div.titulo > h1 {
     flex: auto;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     
@@ -180,7 +183,7 @@ div.projetos {
 
 div.social {
     flex: auto;
-    width:190px;
+    width:200px;
     background-color: rgb(255, 173, 65);
     border-radius: 20px 0px;
     text-align: center;
@@ -195,11 +198,11 @@ div.social > a {
 }
 
 div.social > a > h2 {
-    flex: auto;
-    font-size: 1.5em;
+    flex: auto; 
     text-align: center;
     
 }
+
 
 div.social:hover {
     flex: auto;
